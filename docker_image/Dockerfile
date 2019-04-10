@@ -11,5 +11,5 @@ WORKDIR /opt/users
 RUN echo "start running"
 #CMD ["npm", "run", "db-upgrade", "&&", "npm", "start"]
 #CMD npm run db-upgrade ; npm start
-RUN cd /src
+RUN cd src/
 CMD node server.js
